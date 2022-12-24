@@ -31,7 +31,7 @@ const usersModel = new mongooseJson({
 
 ```js
 async function createData() {
- const data = usersModel.create(d => d.name = "hello") // -> {"name": "hello"}
+ const data = usersModel.findOneOrCreate({name: "hello"}) // -> {"name": "hello"}
 }
 ```
 # how to find Data
@@ -71,7 +71,7 @@ async function delete() {
 | findOne     | find element|
 | create      | create new Object|
 | fetch       |get all data|
-|findOneOrCreate| soon...|
+|findOneOrCreate| find data or create new one|
 
 # dev
 
