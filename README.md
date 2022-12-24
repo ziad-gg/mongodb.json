@@ -64,9 +64,17 @@ async function delete() {
 }
 ```
 
+# all current methods 
+
 | methods      | Description |
 | ----------- | ----------- |
 | findOne     | find element|
 | create      | create new Object|
 | fetch       |get all data|
 |findOneOrCreate| soon...|
+
+# dev
+
+```bash
+Ziath#1768
+```
